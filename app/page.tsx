@@ -1,7 +1,7 @@
 import Image from "next/image";
-import NavBar from "./comonents/navbar";
-import LandingHero from "./comonents/landingHero";
-import Footer from "./comonents/footer";
+import NavBar from "./components/navbar";
+import LandingHero from "./components/landingHero";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
