@@ -10,7 +10,7 @@ const UserPage = () => {
   return (
     <>
       <UserNav />
-      <div className="container ml-10 mr-10 min-w-fit max-w-screen w-5/6 bg-white max-h-screen">
+      <div className="container ml-10 mr-10 min-w-fit max-w-screen w-5/6 max-h-screen">
         <TextEditor />
       </div>
     </>
