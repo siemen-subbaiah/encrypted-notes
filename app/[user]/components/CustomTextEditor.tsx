@@ -35,7 +35,7 @@ const TextEditor = ({ initialValue }: TextEditorProps) => {
   };
 
   return (
-    <div style={{ height: '75vh' }} className='bg-base-200 align-middle items-center'>
+    <div style={{ height: '75vh' }} className='bg-base-200 text-white align-middle items-center'>
       <DynamicEditor
         editorState={editorState}
         onEditorStateChange={handleEditorChange}
